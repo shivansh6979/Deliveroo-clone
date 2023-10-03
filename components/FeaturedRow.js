@@ -2,7 +2,7 @@ import { View, Text, ScrollView } from 'react-native';
 import React from 'react';
 import { ArrowRightIcon } from 'react-native-heroicons/outline';
 import RestrauntCards from './RestrauntCards';
-
+import dishes from '../json/recipes.json';
 const FeaturedRow = ({ id, title, description }) => {
   return (
     <View>
@@ -21,7 +21,7 @@ const FeaturedRow = ({ id, title, description }) => {
           id={123}
           imgUrl="https://links.papareact.com/gn7"
           lat={20}
-          dishes={[]}
+          dishes={dishes}
           short_description="This is short Description!"
           long={1}
           genre="Indian"
@@ -33,7 +33,7 @@ const FeaturedRow = ({ id, title, description }) => {
           id={123}
           imgUrl="https://links.papareact.com/gn7"
           lat={20}
-          dishes={[]}
+          dishes={dishes}
           short_description="This is short Description!"
           long={1}
           genre="Indian"
@@ -45,7 +45,7 @@ const FeaturedRow = ({ id, title, description }) => {
           id={123}
           imgUrl="https://links.papareact.com/gn7"
           lat={20}
-          dishes={[]}
+          dishes={dishes}
           short_description="This is short Description!"
           long={1}
           genre="Indian"

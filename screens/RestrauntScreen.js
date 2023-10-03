@@ -21,6 +21,7 @@ import {
   QuestionMarkCircleIcon,
   ChevronRightIcon,
 } from 'react-native-heroicons/outline';
+import DishRow from '../components/DishRow';
 
 const RestrauntScreen = () => {
   const {
@@ -89,15 +90,21 @@ const RestrauntScreen = () => {
       </View>
       <View>
         <Text className="text-xl font-bold pt-6 px-4 mb-3">Menu</Text>
+        {dishes.map((dish, index) => {
+          return (
+            <DishRow
+              key={index}
+              id={dish.id}
+              url={dish.url}
+              name={dish.name}
+              price={dish.price}
+              description={dish.description}
+            />
+          );
+        })}
       </View>
     </ScrollView>
   );
 };
-
-// const styles = StyleSheet.create({
-//   restraunt: {
-//     paddingTop: Platform.OS == 'android' ? StatusBar.currentHeight : 0,
-//   },
-// });
 
 export default RestrauntScreen;
