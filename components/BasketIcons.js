@@ -16,11 +16,11 @@ const BasketIcons = () => {
         onPress={() => navigation.navigate('Basket')}
         className="mx-3 rounded-lg py-3 flex-row bg-[#00CCBB] justify-around items-center "
       >
-        <Text className="px-2.5 py-1 text-lg text-gray-50 bg-[#00998c] rounded-sm">
+        <Text className="px-3 py-0.5 text-lg text-gray-50 bg-[#00998c] rounded-sm">
           {items.length}
         </Text>
         <Text className="text-gray-50 font-bold text-lg">View Basket</Text>
-        <Text className="text-gray-50 fon-bold text-lg">$ {totalValue}</Text>
+        <Text className="text-gray-50 font-bold text-lg">$ {totalValue}</Text>
       </TouchableOpacity>
     </View>
   );
