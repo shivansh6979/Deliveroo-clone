@@ -18,40 +18,40 @@ const FeaturedRow = ({ id, title, description }) => {
         horizontal
       >
         <RestrauntCards
-          id={123}
+          id={1}
           imgUrl="https://links.papareact.com/gn7"
           lat={20}
           dishes={dishes}
-          short_description="This is short Description!"
-          long={1}
+          short_description="The authencity of nawabs !"
+          long={20}
           genre="Indian"
-          address="210 Indrapuram Noida"
+          address="21-B Peepal Chowk Noida"
           rating={4.3}
-          title="Yo Chicken!"
+          title="Yo Chicken !"
         />
         <RestrauntCards
-          id={123}
+          id={2}
           imgUrl="https://links.papareact.com/gn7"
-          lat={20}
+          lat={40}
           dishes={dishes}
-          short_description="This is short Description!"
-          long={1}
-          genre="Indian"
+          short_description="Munchow is a great place for having chinese !"
+          long={10}
+          genre="Chinese"
           address="210 Indrapuram Noida"
-          rating={4.3}
-          title="Yo Mutton!"
+          rating={3.5}
+          title="Munchow !"
         />
         <RestrauntCards
-          id={123}
+          id={3}
           imgUrl="https://links.papareact.com/gn7"
-          lat={20}
+          lat={60}
           dishes={dishes}
-          short_description="This is short Description!"
-          long={1}
-          genre="Indian"
-          address="210 Indrapuram Noida"
-          rating={4.3}
-          title="Yo Burger!"
+          short_description="That's delicious mughalai flavours !"
+          long={30}
+          genre="Mughlai"
+          address="210 Vaishali Ghaziabad"
+          rating={4.5}
+          title="Kalika hut !"
         />
       </ScrollView>
     </View>
