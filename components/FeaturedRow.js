@@ -20,10 +20,10 @@ const FeaturedRow = ({ id, title, description }) => {
         <RestrauntCards
           id={1}
           imgUrl="https://links.papareact.com/gn7"
-          lat={20}
+          lat={28.6213}
           dishes={dishes}
           short_description="The authencity of nawabs !"
-          long={20}
+          long={77.387}
           genre="Indian"
           address="21-B Peepal Chowk Noida"
           rating={4.3}
@@ -32,10 +32,10 @@ const FeaturedRow = ({ id, title, description }) => {
         <RestrauntCards
           id={2}
           imgUrl="https://links.papareact.com/gn7"
-          lat={40}
+          lat={28.6213}
           dishes={dishes}
           short_description="Munchow is a great place for having chinese !"
-          long={10}
+          long={77.387}
           genre="Chinese"
           address="210 Indrapuram Noida"
           rating={3.5}
@@ -44,10 +44,10 @@ const FeaturedRow = ({ id, title, description }) => {
         <RestrauntCards
           id={3}
           imgUrl="https://links.papareact.com/gn7"
-          lat={60}
+          lat={28.6213}
           dishes={dishes}
           short_description="That's delicious mughalai flavours !"
-          long={30}
+          long={77.387}
           genre="Mughlai"
           address="210 Vaishali Ghaziabad"
           rating={4.5}
